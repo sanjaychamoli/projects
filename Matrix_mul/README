@@ -6,7 +6,6 @@ The Makefile is as per the requirements.
 
 following commands could be used.
 
-module load likwid
 make
 ./matmult A2.in B2.in C2.out #This will save C2.out file in the directory
 chmod +x likwidScript
