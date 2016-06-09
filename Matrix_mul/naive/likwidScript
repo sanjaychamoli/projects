@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# do not forget to execute "module load likwid" !
+
+CORE="0"
+PROGRAM="matmult 32x32-1.in 32x32-2.in C.out"
+echo Profiling program $PROGRAM on core $CORE
+
+echo ================================================================================
+
+
+	likwid-perfctr -C $CORE -g L2 ls -m ./$PROGRAM 
+
+echo ================================================================================
+
+
