@@ -36,3 +36,8 @@ Parallelization is implemented using OpenMP.
 
 /*********************************/
 
+Recurrsive_Function:
+
+Example for a Recurrsive Function
+
+/*********************************/
